@@ -114,7 +114,6 @@ void Polynomial::newTerm(const float theCoef,const int theExp){
 	termArray[terms].coef=theCoef;
 	termArray[terms++].exp=theExp;
 }
-#include <sstream> // 新增此標頭檔案
 
 istream& operator>>(istream &input,Polynomial &Poly) {
     string line;
